@@ -1,0 +1,23 @@
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /home/julia/sysarch-project-one/target/scala-2.13/classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	RV32I.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Decoder.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	BranchUnit.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	GenericCore.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	RegisterFile.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ControlUnit.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	RV32I.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Decoder.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	BranchUnit.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	GenericCore.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	RegisterFile.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ControlUnit.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	RV32I.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Decoder.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	BranchUnit.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	GenericCore.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	RegisterFile.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ControlUnit.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: /home/julia/sysarch-project-one/target/scala-2.13/classes.bak[0m

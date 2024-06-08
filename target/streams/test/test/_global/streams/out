@@ -1,0 +1,107 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(RISCV.ProcessorTest, org.scalatest.tools.Framework$$anon$1@436b0d95, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(ParallelUnitTest, org.scalatest.tools.Framework$$anon$1@436b0d95, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(DividerTest, org.scalatest.tools.Framework$$anon$1@436b0d95, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(RISCV.RV32I.SingleInstructionTests, org.scalatest.tools.Framework$$anon$1@436b0d95, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDividerTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDivider[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDivider[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should correctly divide two numbers *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at ... ()[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at arithmetic.Divider.<init>(Divider.scala:20)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at DividerTest.$anonfun$new$2(DividerTest.scala:71)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chisel3.Module$.evaluate(Module.scala:88)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chisel3.Module$.do_apply(Module.scala:35)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chisel3.stage.phases.Elaborate.$anonfun$transform$2(Elaborate.scala:48)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chisel3.internal.Builder$.$anonfun$buildImpl$1(Builder.scala:1023)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.util.DynamicVariable.withValue(DynamicVariable.scala:59)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chisel3.internal.Builder$.buildImpl(Builder.scala:1017)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chisel3.internal.Builder$.$anonfun$build$1(Builder.scala:1008)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mParallelUnitTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mParallel Unit[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should add two vectors *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at ... ()[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at arithmetic.ParallelUnit.<init>(ParallelUnit.scala:28)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at ParallelUnitTest.$anonfun$new$3(ParallelUnitTest.scala:52)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chisel3.Module$.evaluate(Module.scala:88)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chisel3.Module$.do_apply(Module.scala:35)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chisel3.stage.phases.Elaborate.$anonfun$transform$2(Elaborate.scala:48)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chisel3.internal.Builder$.$anonfun$buildImpl$1(Builder.scala:1023)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.util.DynamicVariable.withValue(DynamicVariable.scala:59)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chisel3.internal.Builder$.buildImpl(Builder.scala:1017)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chisel3.internal.Builder$.$anonfun$build$1(Builder.scala:1008)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mProcessorTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should arithmetic_public[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should branch_public[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should store_public[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should jal_public *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  In step 4: io_rvfi_rvfi_valid=false (0, 0x0) did not equal expected=true (1, 0x1) at (ProcessorTest.scala:56) (ProcessorTestUtils.scala:176)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should load_word_public *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  In step 9: io_rvfi_rvfi_valid=false (0, 0x0) did not equal expected=true (1, 0x1) at (ProcessorTest.scala:56) (ProcessorTestUtils.scala:176)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should multiply_2_5_public *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  In step 5: io_rvfi_rvfi_valid=false (0, 0x0) did not equal expected=true (1, 0x1) at (ProcessorTest.scala:56) (ProcessorTestUtils.scala:176)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should div_public *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  In step 5: io_rvfi_rvfi_valid=false (0, 0x0) did not equal expected=true (1, 0x1) at (ProcessorTest.scala:56) (ProcessorTestUtils.scala:176)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should compute fibonacci *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  In step 8: io_rvfi_rvfi_valid=false (0, 0x0) did not equal expected=true (1, 0x1) at (ProcessorTest.scala:56) (ProcessorTestUtils.scala:176)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should compute quicksort *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  In step 7: io_rvfi_rvfi_valid=false (0, 0x0) did not equal expected=true (1, 0x1) at (ProcessorTest.scala:56) (ProcessorTestUtils.scala:176)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSingleInstructionTests:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should do a random addi[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should do a random slti[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should do a random sltiu[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should do a random andi[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should do a random ori[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should do a random xori[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should do a random slli[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should do a random srli[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should do a random srai[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should do a random lui[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should do a random auipc[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should do a random add[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should do a random sub[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should do a random sll[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should do a random slt[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should do a random sltu[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should do a random xor[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should do a random srl[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should do a random sra[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should do a random or[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should do a random and[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should do a random jal *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  In step 34: io_rvfi_rvfi_valid=false (0, 0x0) did not equal expected=true (1, 0x1) at (SingleInstructionTests.scala:69) (ProcessorTestUtils.scala:176)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should do a random jalr *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  In step 34: io_rvfi_rvfi_valid=false (0, 0x0) did not equal expected=true (1, 0x1) at (SingleInstructionTests.scala:69) (ProcessorTestUtils.scala:176)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should do a random beq[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should do a random bne[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should do a random blt[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should do a random bge[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should do a random bltu[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should do a random bgeu[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should do a random lb *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  In step 34: io_rvfi_rvfi_valid=false (0, 0x0) did not equal expected=true (1, 0x1) at (SingleInstructionTests.scala:69) (ProcessorTestUtils.scala:176)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should do a random lh *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  In step 34: io_rvfi_rvfi_valid=false (0, 0x0) did not equal expected=true (1, 0x1) at (SingleInstructionTests.scala:69) (ProcessorTestUtils.scala:176)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should do a random lw *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  In step 34: io_rvfi_rvfi_valid=false (0, 0x0) did not equal expected=true (1, 0x1) at (SingleInstructionTests.scala:69) (ProcessorTestUtils.scala:176)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should do a random lbu *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  In step 34: io_rvfi_rvfi_valid=false (0, 0x0) did not equal expected=true (1, 0x1) at (SingleInstructionTests.scala:69) (ProcessorTestUtils.scala:176)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should do a random lhu *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  In step 34: io_rvfi_rvfi_valid=false (0, 0x0) did not equal expected=true (1, 0x1) at (SingleInstructionTests.scala:69) (ProcessorTestUtils.scala:176)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should do a random sb[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should do a random sh[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should do a random sw[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 25 seconds, 954 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 48[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 4, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 33, failed 15, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 15 TESTS FAILED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	RISCV.ProcessorTest[0m
+[0m[[0m[31merror[0m] [0m[0m	DividerTest[0m
+[0m[[0m[31merror[0m] [0m[0m	ParallelUnitTest[0m
+[0m[[0m[31merror[0m] [0m[0m	RISCV.RV32I.SingleInstructionTests[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m

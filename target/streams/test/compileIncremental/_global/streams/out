@@ -1,0 +1,6 @@
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
+[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 59 products, 10 sources, 14 libraries[0m
+[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/src/test/scala/utils/TestConfig.scala, ${BASE}/src/test/scala/RISC-V/RV32I/SingleInstructionTests.scala, ${BASE}/src/test/scala/arithmetic/DividerTest.scala, ${BASE}/src/test/scala/utils/ProcessorState.scala, ${BASE}/src/test/scala/utils/ProcessorTestUtils.scala, ${BASE}/src/test/scala/utils/RISCVInstruction.scala, ${BASE}/src/test/scala/utils/RVFI.scala, ${BASE}/src/test/scala/arithmetic/ParallelUnitTest.scala, ${BASE}/src/test/scala/RISC-V/ProcessorTest.scala, ${BASE}/src/test/scala/utils/ChiselUtils.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())[0m
+[0m[[0m[0mdebug[0m] [0m[0mNo changes[0m
