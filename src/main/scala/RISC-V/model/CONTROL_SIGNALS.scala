@@ -25,6 +25,7 @@ object NEXT_PC_SELECT extends ChiselEnum {
   val ALU_OUT_ALIGNED = Value("b1".U)
   val IMM = Value("b10".U)
   val BRANCH = Value("b11".U)
+  val JUMP = Value("b100".U) //2.2
 }
 
 object STALL_REASON extends ChiselEnum {

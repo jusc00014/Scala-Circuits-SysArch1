@@ -1,4 +1,4 @@
-[0m[[0m[0mdebug[0m] [0m[0m[sysarch-project-one-build] Classpath dependencies List()[0m
-[0m[[0m[0mdebug[0m] [0m[0m[sysarch-project-one-build] Dependencies from configurations List()[0m
-[0m[[0m[0mdebug[0m] [0m[0mBloop wrote the configuration of project 'sysarch-project-one-build' to '/home/julia/sysarch-project-one/project/.bloop/sysarch-project-one-build.json'[0m
-[0m[[0m[32msuccess[0m] [0m[0mGenerated .bloop/sysarch-project-one-build.json[0m
+[0m[[0m[0mdebug[0m] [0m[0m[sysarch1-build] Classpath dependencies List()[0m
+[0m[[0m[0mdebug[0m] [0m[0m[sysarch1-build] Dependencies from configurations List()[0m
+[0m[[0m[0mdebug[0m] [0m[0mBloop wrote the configuration of project 'sysarch1-build' to '/home/julia/sysarch1/project/.bloop/sysarch1-build.json'[0m
+[0m[[0m[32msuccess[0m] [0m[0mGenerated .bloop/sysarch1-build.json[0m

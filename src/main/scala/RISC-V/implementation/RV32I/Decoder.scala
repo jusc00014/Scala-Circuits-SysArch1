@@ -67,7 +67,7 @@ class Decoder extends AbstractDecoder {
       io_decoder.rs1 := RS1
       io_decoder.rs2 := RS2
       io_decoder.rd := 0.U
-      io_decoder.imm := Fill(19, io_decoder.instr(31)) ## io_decoder.instr(31) ## io_decoder.instr(7) ## io_decoder.instr(30, 25) ## io_decoder.instr(11, 8) ## Fill(1, 0.U)
+      io_decoder.imm := Fill(20, io_decoder.instr(31)) ## io_decoder.instr(7) ## io_decoder.instr(30, 25) ## io_decoder.instr(11, 8) ## Fill(1, 0.U)
     }
     is(RISCV_OP.STORE) {  //S-Type
       io_decoder.instr_type := RISCV_TYPE(opcode.asUInt ## funct3.asUInt ## Fill(7, 0.U))
@@ -75,7 +75,25 @@ class Decoder extends AbstractDecoder {
       io_decoder.rs1 := RS1
       io_decoder.rs2 := RS2
       io_decoder.rd := 0.U
-      io_decoder.imm := Fill(20, io_decoder.instr(31)) ## io_decoder.instr(31, 25) ## io_decoder.instr(11, 7)
+      io_decoder.imm := Fill(19, io_decoder.instr(31)) ## io_decoder.instr(31) ## io_decoder.instr(31, 25) ## io_decoder.instr(11, 7)
     }
+//2.2 Decode the JAL instruction
+    is(RISCV_OP.JAL) {
+      io_decoder.instr_type := RISCV_TYPE(opcode.asUInt ## Fill(10, 0.U))
+      io_decoder.valid := opcode =/= RISCV_OP.UNKNOWN && io_decoder.instr_type =/= RISCV_TYPE.UNKNOWN
+      io_decoder.rs1 := 0.U
+      io_decoder.rs2 := 0.U
+      io_decoder.rd := RD
+      io_decoder.imm := Fill(11, io_decoder.instr(31)) ## io_decoder.instr(19,12) ## io_decoder.instr(20) ## io_decoder.instr(30,21) ## Fill(1, 0.U)
+    }
+//2.2 Decode the JALR instruction
+    is(RISCV_OP.JALR) {
+      io_decoder.instr_type := RISCV_TYPE(opcode.asUInt ## funct3.asUInt ## Fill(7, 0.U))
+      io_decoder.valid := opcode =/= RISCV_OP.UNKNOWN && io_decoder.instr_type =/= RISCV_TYPE.UNKNOWN
+      io_decoder.rs1 := RS1
+      io_decoder.rd := RD
+      io_decoder.imm := Fill(12, io_decoder.instr(31)) ## io_decoder.instr(31,20)
+    }
+
   }
 }

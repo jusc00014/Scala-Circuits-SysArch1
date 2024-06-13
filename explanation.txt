@@ -1,0 +1,10 @@
+Problem 2.2
+	jal:
+	 - Decoder
+	 - Control_signals: Add JUMP for NEXT_PC_SELECT
+	 - RV32I_ExecutionUnit: Define what to do with the pc if JUMP is selected
+	 - ControlUnit: Need only one cycle, need no ALU, next_pc from JUMP, write pc+4 to rd
+	jalr:
+	 - Decoder
+	 To do: Take Result form ALU as pc
+	 

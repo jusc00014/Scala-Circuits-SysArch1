@@ -30,7 +30,7 @@ class RV32I (
   val alu = Module(genALU)
   alu.io_reset <> io_reset
 
-//Initialisiere und aktuallisiere nde Stall-Zustand
+//Initialisiere und aktuallisiere den Stall-Zustand
   val stalled = RegInit(STALL_REASON.NO_STALL)
   when(~io_reset.rst_n) {
     stalled := STALL_REASON.NO_STALL
@@ -38,7 +38,7 @@ class RV32I (
     stalled := control_unit.io_ctrl.stall
   }
 
-//Verbinde Decoder-Eingänge mit Instructions-Eingänge //?
+//Verbinde Decoder-Eingänge mit Instructions-Eingänge
   decoder.io_decoder.instr := io.instr
   io.valid := decoder.io_decoder.valid
   io.stall := control_unit.io_ctrl.stall
@@ -51,6 +51,9 @@ class RV32I (
     }
     is(NEXT_PC_SELECT.BRANCH) {
       io_pc.pc_wdata := Mux(branch_unit.io_branch.branch_taken, io_pc.pc + decoder.io_decoder.imm, (io_pc.pc + 4.U))
+    }
+    is(NEXT_PC_SELECT.JUMP) { //2.2
+      io_pc.pc_wdata := io_pc.pc + decoder.io_decoder.imm
     }
   }
   io_pc.pc_we := control_unit.io_ctrl.stall === STALL_REASON.NO_STALL

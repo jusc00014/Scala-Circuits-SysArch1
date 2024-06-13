@@ -162,7 +162,7 @@ abstract class GenericCore (genExecutionUnits : Seq[() => AbstractExecutionUnit]
   io_rvfi.rvfi_pc_rdata := pc.io.pc
   io_rvfi.rvfi_pc_wdata := pc.io.pc_wdata
 
-  //Memory Requelt Signale
+  //Memory Request Signale
   val had_mem_req = RegInit(false.B)
   when (~io_reset.rst_n) {
     had_mem_req := false.B
