@@ -52,9 +52,14 @@ class RV32I (
     is(NEXT_PC_SELECT.BRANCH) {
       io_pc.pc_wdata := Mux(branch_unit.io_branch.branch_taken, io_pc.pc + decoder.io_decoder.imm, (io_pc.pc + 4.U))
     }
+    //2.2
+    is(NEXT_PC_SELECT.ALU) {
+      io_pc.pc_wdata := alu.io_alu.result
+    }
+    /*
     is(NEXT_PC_SELECT.JUMP) { //2.2
       io_pc.pc_wdata := io_pc.pc + decoder.io_decoder.imm
-    }
+    }*/
   }
   io_pc.pc_we := control_unit.io_ctrl.stall === STALL_REASON.NO_STALL
 

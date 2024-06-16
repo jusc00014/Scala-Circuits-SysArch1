@@ -26,6 +26,7 @@ object NEXT_PC_SELECT extends ChiselEnum {
   val IMM = Value("b10".U)
   val BRANCH = Value("b11".U)
   val JUMP = Value("b100".U) //2.2
+  val ALU = Value("b101".U) //2.2
 }
 
 object STALL_REASON extends ChiselEnum {

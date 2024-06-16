@@ -1,7 +1,12 @@
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(DividerTest, org.scalatest.tools.Framework$$anon$1@6cb5f0ab, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(RISCV.RV32I.SingleInstructionTests, org.scalatest.tools.Framework$$anon$1@6cb5f0ab, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(RISCV.ProcessorTest, org.scalatest.tools.Framework$$anon$1@6cb5f0ab, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(ParallelUnitTest, org.scalatest.tools.Framework$$anon$1@6cb5f0ab, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(RISCV.RV32I.SingleInstructionTests, org.scalatest.tools.Framework$$anon$1@80735f, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(ParallelUnitTest, org.scalatest.tools.Framework$$anon$1@80735f, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(DividerTest, org.scalatest.tools.Framework$$anon$1@80735f, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(RISCV.ProcessorTest, org.scalatest.tools.Framework$$anon$1@80735f, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDividerTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDivider[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDivider[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should correctly divide two numbers *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  In step 7: io_quotient=0 (0x0) did not equal expected=2 (0x2) at (DividerTest.scala:63) (DividerTest.scala:63)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mParallelUnitTest:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mParallel Unit[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[31m- should add two vectors *** FAILED ***[0m[0m
@@ -17,22 +22,6 @@
 [0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:190)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[31m  at ParallelUnitTest.$anonfun$new$5(ParallelUnitTest.scala:54)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mDividerTest:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mDivider[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mDivider[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m- should correctly divide two numbers *** FAILED ***[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at ... ()[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at arithmetic.Divider.<init>(Divider.scala:20)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at DividerTest.$anonfun$new$2(DividerTest.scala:71)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at chisel3.Module$.evaluate(Module.scala:88)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at chisel3.Module$.do_apply(Module.scala:35)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at chisel3.stage.phases.Elaborate.$anonfun$transform$2(Elaborate.scala:48)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at chisel3.internal.Builder$.$anonfun$buildImpl$1(Builder.scala:1023)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.util.DynamicVariable.withValue(DynamicVariable.scala:59)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at chisel3.internal.Builder$.buildImpl(Builder.scala:1017)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at chisel3.internal.Builder$.$anonfun$build$1(Builder.scala:1008)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mProcessorTest:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should arithmetic_public[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should branch_public[0m[0m
@@ -44,19 +33,7 @@
 [0m[[0m[0minfo[0m] [0m[0m[31m  In step 5: io_rvfi_rvfi_valid=false (0, 0x0) did not equal expected=true (1, 0x1) at (ProcessorTest.scala:56) (ProcessorTestUtils.scala:176)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[31m- should div_public *** FAILED ***[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[31m  In step 5: io_rvfi_rvfi_valid=false (0, 0x0) did not equal expected=true (1, 0x1) at (ProcessorTest.scala:56) (ProcessorTestUtils.scala:176)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m- should compute fibonacci *** FAILED ***[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  java.util.NoSuchElementException: key not found: -2147483640[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.MapOps.default(Map.scala:274)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.MapOps.default$(Map.scala:273)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.AbstractMap.default(Map.scala:405)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.mutable.HashMap.apply(HashMap.scala:440)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at RISCV.ProcessorTest.$anonfun$runProgram$13(ProcessorTest.scala:55)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:190)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at RISCV.ProcessorTest.$anonfun$runProgram$9(ProcessorTest.scala:54)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at RISCV.ProcessorTest.$anonfun$runProgram$9$adapted(ProcessorTest.scala:41)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.internal.SimController.run(SimController.scala:124)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.internal.Context$.$anonfun$runTest$2(Context.scala:30)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should compute fibonacci[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[31m- should compute quicksort *** FAILED ***[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[31m  In step 29: io_rvfi_rvfi_valid=false (0, 0x0) did not equal expected=true (1, 0x1) at (ProcessorTest.scala:56) (ProcessorTestUtils.scala:176)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mSingleInstructionTests:[0m[0m
@@ -81,10 +58,8 @@
 [0m[[0m[0minfo[0m] [0m[0m[32m- should do a random sra[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should do a random or[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should do a random and[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m- should do a random jal *** FAILED ***[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  In step 34: io_rvfi_rvfi_pc_wdata=2147203706 (0x7ffbba7a) did not equal expected=4294687354 (0xfffbba7a) at (SingleInstructionTests.scala:70) (ProcessorTestUtils.scala:50)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m- should do a random jalr *** FAILED ***[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  In step 35: io_rvfi_rvfi_rd_wdata=0 (0x0) did not equal expected=128 (0x80) at (SingleInstructionTests.scala:70) (ProcessorTestUtils.scala:47)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should do a random jal[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should do a random jalr[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should do a random beq[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should do a random bne[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should do a random blt[0m[0m
@@ -104,11 +79,11 @@
 [0m[[0m[0minfo[0m] [0m[0m[32m- should do a random sb[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should do a random sh[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should do a random sw[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 30 seconds, 38 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 30 seconds, 686 milliseconds.[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 48[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 4, aborted 0[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 34, failed 14, canceled 0, ignored 0, pending 0[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m*** 14 TESTS FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 37, failed 11, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 11 TESTS FAILED ***[0m[0m
 [0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
 [0m[[0m[31merror[0m] [0m[0m	RISCV.ProcessorTest[0m
 [0m[[0m[31merror[0m] [0m[0m	DividerTest[0m
