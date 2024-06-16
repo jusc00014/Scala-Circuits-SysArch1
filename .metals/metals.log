@@ -10603,3 +10603,13 @@ WARNUNG: Unmatched cancel notification for request id 2708
 2024.06.16 12:59:00 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/ControlUnit.scala. Using presentation compiler with project's scala-library version: 3.3.3
 2024.06.16 12:59:00 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/ControlUnit.scala. Using presentation compiler with project's scala-library version: 3.3.3
 2024.06.16 12:59:01 WARN  no build target for: /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/ControlUnit.scala
+2024.06.16 13:00:54 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/ControlUnit.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.16 13:00:54 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/ControlUnit.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.16 13:00:58 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/model/RISCV_TYPE.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.16 13:00:58 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/ControlUnit.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.16 13:01:30 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/ControlUnit.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.16 13:01:30 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/ControlUnit.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.16 13:01:40 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/model/CONTROL_SIGNALS.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.16 13:01:40 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/model/CONTROL_SIGNALS.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.16 13:01:41 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/model/CONTROL_SIGNALS.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.16 13:01:42 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
