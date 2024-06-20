@@ -54,7 +54,7 @@ class RV32I (
     }
     //2.2
     is(NEXT_PC_SELECT.ALU) {
-      io_pc.pc_wdata := alu.io_alu.result
+      io_pc.pc_wdata := alu.io_alu.result(31,1) ## Fill(1, 0.U)
     }
     /*
     is(NEXT_PC_SELECT.JUMP) { //2.2

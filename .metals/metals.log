@@ -10613,3 +10613,485 @@ WARNUNG: Unmatched cancel notification for request id 2708
 2024.06.16 13:01:40 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/model/CONTROL_SIGNALS.scala. Using presentation compiler with project's scala-library version: 3.3.3
 2024.06.16 13:01:41 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/model/CONTROL_SIGNALS.scala. Using presentation compiler with project's scala-library version: 3.3.3
 2024.06.16 13:01:42 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.16 13:08:32 INFO  Shutting down server
+2024.06.16 13:08:32 INFO  shutting down Metals
+2024.06.16 13:08:32 INFO  Shut down connection with build server.
+2024.06.16 13:08:32 INFO  Exiting server
+2024.06.17 09:38:04 INFO  Started: Metals version 1.3.1 in folders '/home/julia/sysarch1' for client Visual Studio Code 1.90.1.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@3689469d]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@ed5be9a]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@3689469d]
+2024.06.17 09:38:04 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.06.17 09:38:05 INFO  Attempting to connect to the build server...
+2024.06.17 09:38:07 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/julia/sysarch1/.metals/bsp.trace.json or /home/julia/.cache/metals/bsp.trace.json
+2024.06.17 09:38:07 INFO  time: Connected to build server in 2.67s
+2024.06.17 09:38:07 INFO  Connected to Build server: Bloop v1.5.17
+2024.06.17 09:38:09 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2024.06.17 09:38:09 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2024.06.17 09:38:09 INFO  time: indexed workspace in 1.03s
+2024.06.17 09:38:30 INFO  Shutting down server
+2024.06.17 09:38:30 INFO  shutting down Metals
+2024.06.17 09:38:30 INFO  Shut down connection with build server.
+2024.06.17 09:38:30 INFO  Exiting server
+2024.06.19 13:28:04 INFO  Started: Metals version 1.3.1 in folders '/home/julia/sysarch1' for client Visual Studio Code 1.90.1.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@252b1970]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@14ee66d6]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@252b1970]
+2024.06.19 13:28:04 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.06.19 13:28:05 INFO  Attempting to connect to the build server...
+2024.06.19 13:28:05 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/model/CONTROL_SIGNALS.scala. Using presentation compiler with project's scala-library version: 3.3.3
+Juni 19, 2024 1:28:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNUNG: Unmatched cancel notification for request id 3
+Juni 19, 2024 1:28:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNUNG: Unmatched cancel notification for request id 1
+2024.06.19 13:28:06 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.19 13:28:08 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/julia/sysarch1/.metals/bsp.trace.json or /home/julia/.cache/metals/bsp.trace.json
+2024.06.19 13:28:08 INFO  time: Connected to build server in 3.98s
+2024.06.19 13:28:08 INFO  Connected to Build server: Bloop v1.5.17
+2024.06.19 13:28:09 INFO  time: Imported build in 0.13s
+2024.06.19 13:28:10 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2024.06.19 13:28:10 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2024.06.19 13:28:10 INFO  time: indexed workspace in 1.66s
+2024.06.19 13:28:10 WARN  no build target for: /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala
+2024.06.19 13:28:10 WARN  no build target for: /home/julia/sysarch1/src/main/scala/RISC-V/model/CONTROL_SIGNALS.scala
+2024.06.19 13:28:10 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.19 13:28:10 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.19 13:28:11 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/model/CONTROL_SIGNALS.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.19 13:28:54 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.19 13:31:32 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.19 13:31:32 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.19 13:31:33 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.19 13:31:33 ERROR Failed to tokenize input for semantic tokens for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala
+scala.meta.tokenizers.TokenizeException: <input>:96: error: unclosed character literal
+      io_decoder.imm := Fill(20, io_decoder.instr(31)) ## io_decoder.instr(31,20) ''
+                                                                                  ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:414)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:419)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:514)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.06.19 13:31:34 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.19 13:31:35 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.19 13:31:35 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.19 13:31:37 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.19 13:31:37 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.19 13:31:37 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.19 13:31:38 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.19 13:31:37 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.19 13:31:38 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.19 13:31:38 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.19 13:31:39 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.19 13:31:43 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.19 13:31:43 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.19 13:31:44 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.19 13:31:44 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.19 13:31:44 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.19 13:31:44 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.19 13:31:44 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.19 13:31:45 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.19 13:31:45 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.19 13:31:45 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.19 13:31:46 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.19 13:31:45 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.19 13:31:46 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.19 13:31:46 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.19 13:31:46 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.19 13:31:46 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.19 13:31:48 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.19 13:31:49 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.19 13:31:50 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.19 13:31:50 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.19 13:31:51 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.19 13:31:51 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.19 13:31:51 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.19 13:31:52 WARN  no build target for: /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala
+2024.06.19 13:33:12 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.19 13:33:12 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.19 13:33:12 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.19 13:33:12 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.19 13:33:13 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.19 13:33:16 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.19 13:33:16 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.19 13:33:17 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.19 13:33:16 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.19 13:33:18 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.19 13:33:21 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.19 13:33:21 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.19 13:33:22 WARN  no build target for: /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala
+2024.06.19 13:33:39 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.19 13:33:47 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.19 13:33:47 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.19 13:48:59 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.19 13:49:00 INFO  Shutting down server
+2024.06.19 13:49:00 INFO  shutting down Metals
+2024.06.19 13:49:00 INFO  Shut down connection with build server.
+2024.06.19 13:49:00 INFO  Exiting server
+2024.06.20 09:57:00 INFO  Started: Metals version 1.3.1 in folders '/home/julia/sysarch1' for client Visual Studio Code 1.90.1.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@68f2dab6]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@6618fc3]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@68f2dab6]
+2024.06.20 09:57:00 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.06.20 09:57:01 INFO  Attempting to connect to the build server...
+2024.06.20 09:57:02 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 09:57:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/julia/sysarch1/.metals/bsp.trace.json or /home/julia/.cache/metals/bsp.trace.json
+2024.06.20 09:57:05 INFO  time: Connected to build server in 3.65s
+2024.06.20 09:57:05 INFO  Connected to Build server: Bloop v1.5.17
+2024.06.20 09:57:05 INFO  time: Imported build in 0.14s
+2024.06.20 09:57:05 INFO  Shutting down server
+2024.06.20 09:57:05 INFO  shutting down Metals
+2024.06.20 09:57:05 INFO  Shut down connection with build server.
+2024.06.20 09:57:05 INFO  Exiting server
+2024.06.20 12:55:37 INFO  Started: Metals version 1.3.2 in folders '/home/julia/sysarch1' for client Visual Studio Code 1.90.2.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@1a5dfeb1]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@651a5fbe]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@1a5dfeb1]
+2024.06.20 12:55:37 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.06.20 12:55:38 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 12:55:43 INFO  Attempting to connect to the build server...
+2024.06.20 12:55:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/julia/sysarch1/.metals/bsp.trace.json or /home/julia/.cache/metals/bsp.trace.json
+2024.06.20 12:55:43 INFO  time: Connected to build server in 0.55s
+2024.06.20 12:55:43 INFO  Connected to Build server: Bloop v1.5.17
+2024.06.20 12:55:44 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+Juni 20, 2024 12:55:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNUNG: Unmatched cancel notification for request id 4
+Juni 20, 2024 12:55:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNUNG: Unmatched cancel notification for request id 2
+2024.06.20 12:55:44 INFO  time: Imported build in 0.19s
+2024.06.20 12:55:44 WARN  no build target for: /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala
+2024.06.20 12:55:44 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 12:55:46 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2024.06.20 12:55:46 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2024.06.20 12:55:46 INFO  time: indexed workspace in 2.55s
+2024.06.20 12:55:46 WARN  no build target for: /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala
+2024.06.20 12:55:50 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 12:55:55 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 12:57:35 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 12:57:49 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 12:57:58 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 12:57:58 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 12:57:58 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 12:57:58 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 12:57:58 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 12:57:59 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 12:57:59 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 12:57:59 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 12:58:00 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 12:58:00 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 12:58:01 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 12:58:07 WARN  no build target for: /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala
+2024.06.20 13:00:31 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/ControlUnit.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:00:31 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:00:31 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/ControlUnit.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:00:33 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/model/CONTROL_SIGNALS.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:00:33 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:00:33 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/model/CONTROL_SIGNALS.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:00:36 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:00:36 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:00:48 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:00:48 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:00:48 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:01:02 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:01:03 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:01:03 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:01:03 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:01:03 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:01:03 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:01:04 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:01:03 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:01:04 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:01:04 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:01:04 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:01:04 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:01:05 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:01:05 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:01:05 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:01:05 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:01:05 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:01:06 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:01:06 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:01:06 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:01:06 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:01:07 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:01:07 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:01:08 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:01:08 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:01:08 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:01:08 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:01:08 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:01:08 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:01:08 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:01:08 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:01:08 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:01:08 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:01:09 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:01:12 WARN  no build target for: /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala
+2024.06.20 13:01:12 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:03:07 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:03:09 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:03:10 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:03:10 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:03:10 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:03:10 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:03:10 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:03:10 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:03:11 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:03:10 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:03:11 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:03:11 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:03:13 WARN  no build target for: /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala
+2024.06.20 13:04:41 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:04:41 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:04:46 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:04:55 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:04:55 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:04:58 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:04:58 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:04:58 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:04:58 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:04:58 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:04:58 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:04:59 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:04:59 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:04:59 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:01 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:01 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:01 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:01 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:01 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:01 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:03 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:03 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:03 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:03 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:03 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:03 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:03 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:04 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:04 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:04 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:04 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:04 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:04 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:05 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:06 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:06 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:06 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:07 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:07 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:07 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:08 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:08 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:07 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:08 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:08 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:09 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:09 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:09 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:09 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:09 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:09 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:10 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:10 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:11 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:10 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:10 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:11 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:11 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:12 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:11 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:12 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:12 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:12 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:12 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:13 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:13 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:13 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:13 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:13 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:13 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:13 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:14 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:13 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:14 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:14 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:14 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:14 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:15 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:15 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:14 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:14 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:15 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:15 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:15 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:15 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:15 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:16 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:05:18 WARN  no build target for: /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala
+2024.06.20 13:06:21 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:06:21 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:06:22 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:06:23 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:06:23 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:06:23 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:06:23 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:06:23 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:06:23 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:06:23 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:06:23 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:06:24 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:06:24 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:06:38 WARN  no build target for: /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala
+2024.06.20 13:06:38 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:07:24 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:07:25 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:07:25 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:07:25 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:07:25 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:07:25 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:07:25 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:07:25 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:07:26 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:07:26 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:07:26 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:07:26 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:07:26 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:07:26 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:07:26 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:07:26 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:07:26 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:07:26 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:07:26 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:07:27 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:07:27 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:07:28 WARN  no build target for: /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala
+2024.06.20 13:10:21 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:10:21 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:10:22 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:10:22 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:10:22 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:10:22 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:10:22 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:10:23 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:10:23 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:10:22 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:10:23 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:10:23 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:10:25 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:10:25 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:10:32 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:10:32 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/model/CONTROL_SIGNALS.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:10:32 WARN  no build target for: /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala
+2024.06.20 13:10:32 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/model/CONTROL_SIGNALS.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:10:34 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/model/CONTROL_SIGNALS.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:10:35 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/ControlUnit.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:10:34 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/ControlUnit.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:10:43 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:10:45 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:10:57 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:10:57 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:10:58 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:10:59 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:10:59 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:04 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:04 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:06 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:06 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:06 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:06 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:07 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:07 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:06 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:06 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:07 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:07 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:09 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:09 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:09 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:09 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:09 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:09 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:10 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:09 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:10 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:10 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:10 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:10 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:10 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:11 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:11 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:11 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:11 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:12 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:12 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:15 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:15 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:15 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:15 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:16 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:16 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:15 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:15 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:16 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:16 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:17 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:16 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:16 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:17 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:17 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:16 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:16 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:17 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:17 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:18 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:18 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:18 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:17 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:19 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:19 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:19 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:19 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:19 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:20 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:20 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:20 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:20 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:20 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:20 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:21 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:21 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:21 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:21 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:21 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:21 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:11:23 WARN  no build target for: /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala
+2024.06.20 13:17:18 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:17:23 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 13:17:23 INFO  no build target found for /home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/RV32I.scala. Using presentation compiler with project's scala-library version: 3.3.3

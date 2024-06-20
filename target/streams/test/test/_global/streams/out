@@ -1,7 +1,12 @@
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(ParallelUnitTest, org.scalatest.tools.Framework$$anon$1@58a98b95, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(RISCV.ProcessorTest, org.scalatest.tools.Framework$$anon$1@58a98b95, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(DividerTest, org.scalatest.tools.Framework$$anon$1@58a98b95, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(RISCV.RV32I.SingleInstructionTests, org.scalatest.tools.Framework$$anon$1@58a98b95, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(RISCV.ProcessorTest, org.scalatest.tools.Framework$$anon$1@79164be9, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(RISCV.RV32I.SingleInstructionTests, org.scalatest.tools.Framework$$anon$1@79164be9, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(ParallelUnitTest, org.scalatest.tools.Framework$$anon$1@79164be9, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(DividerTest, org.scalatest.tools.Framework$$anon$1@79164be9, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDividerTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDivider[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDivider[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should correctly divide two numbers *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  In step 7: io_remainder=1 (0x1) did not equal expected=16 (0x10) at (DividerTest.scala:64) (DividerTest.scala:64)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mParallelUnitTest:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mParallel Unit[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[31m- should add two vectors *** FAILED ***[0m[0m
@@ -17,11 +22,6 @@
 [0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:190)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[31m  at ParallelUnitTest.$anonfun$new$5(ParallelUnitTest.scala:54)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mDividerTest:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mDivider[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mDivider[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m- should correctly divide two numbers *** FAILED ***[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  In step 7: io_quotient=0 (0x0) did not equal expected=2 (0x2) at (DividerTest.scala:63) (DividerTest.scala:63)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mProcessorTest:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should arithmetic_public[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should branch_public[0m[0m
@@ -59,8 +59,7 @@
 [0m[[0m[0minfo[0m] [0m[0m[32m- should do a random or[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should do a random and[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should do a random jal[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m- should do a random jalr *** FAILED ***[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  In step 34: io_rvfi_rvfi_pc_wdata=4294967153 (0xffffff71) did not equal expected=4294967152 (0xffffff70) at (SingleInstructionTests.scala:70) (ProcessorTestUtils.scala:50)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should do a random jalr[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should do a random beq[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should do a random bne[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should do a random blt[0m[0m
@@ -75,14 +74,15 @@
 [0m[[0m[0minfo[0m] [0m[0m[32m- should do a random sb[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should do a random sh[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should do a random sw[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 34 seconds, 321 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 34 seconds, 38 milliseconds.[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 48[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 4, aborted 0[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 41, failed 7, canceled 0, ignored 0, pending 0[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m*** 7 TESTS FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 42, failed 6, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 6 TESTS FAILED ***[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	RISCV.RV32I.SingleInstructionTests[0m
 [0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
 [0m[[0m[31merror[0m] [0m[0m	RISCV.ProcessorTest[0m
 [0m[[0m[31merror[0m] [0m[0m	DividerTest[0m
 [0m[[0m[31merror[0m] [0m[0m	ParallelUnitTest[0m
-[0m[[0m[31merror[0m] [0m[0m	RISCV.RV32I.SingleInstructionTests[0m
 [0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m

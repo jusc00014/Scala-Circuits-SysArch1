@@ -6,9 +6,11 @@ Problem 2.2
 	 - ControlUnit: Need only one cycle, write pc+4 to rd, use ALU to compute pc = pc+imm
 	jalr:
 	 - Decoder
-	 - ControlUnit: Need only one cycle, write pc+4 to rd, use ALU to compute pc = rs1+imm
+	 - ControlUnit: Need only one cycle, write pc+4 to rd, use ALU to compute pc = rs1+imm and set last bit to 0
 	 
 	 
 Problem 2.3
 	- Decoder: Decodes according to I-Type
 	- ControlUnit: Need multiple cycles, write ALU-result to reg, activate data request, data_be similar to STORE OP
+
+Problem: JALR ist zersört (off by 1) und Load public funktioniert nicht
