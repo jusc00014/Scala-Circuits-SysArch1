@@ -10,6 +10,73 @@ abstract class ComputationalUnit(width: Int) extends Module {
         val a = Input(UInt(width.W))
         val b = Input(UInt(width.W))
         val c = Output(UInt(width.W))
+    })  
+}
+
+class ParallelUnit(vectorSize: Int, arraySize: Int, unitWidth: Int, comp : (Int) => ComputationalUnit) extends Module {
+    require(vectorSize % arraySize == 0)
+    val io = IO(new Bundle {
+        val a = Input(Vec(vectorSize, UInt(unitWidth.W)))
+        val b = Input(Vec(vectorSize, UInt(unitWidth.W)))
+        val start = Input(Bool())
+        val done = Output(Bool())
+        val c = Output(Vec(vectorSize, UInt(unitWidth.W)))
+    })
+
+    val units = Seq.fill(arraySize)(Module(comp(unitWidth)))
+    
+    val outputRegs = Reg(Vec(vectorSize, UInt(unitWidth.W)))
+  val cycleCounter = RegInit(0.U(log2Ceil(vectorSize / arraySize).W))
+  val processing = RegInit(false.B)
+  val index = WireDefault(0.U(log2Ceil(vectorSize).W))  // Adjusted the width of the index
+  //val indexForArray = WireDefault(0.U(vectorSize).W)
+
+  // Set default values for the units' inputs
+  for (i <- 0 until (arraySize  ) ) {
+    units(i).io.a := 0.U
+    units(i).io.b := 0.U
+  }
+
+  when(io.start) {
+    cycleCounter := 0.U
+    processing := true.B
+    index := 0.U
+    //indexForArray :=  vectorSize / arraySize
+
+  }
+
+  when(processing) {
+    for (i <- 0 until (arraySize  )) {
+      index := (cycleCounter + ((vectorSize.U / arraySize.U ) * i.U))
+      units(i).io.a := io.a((cycleCounter + ((vectorSize.U / arraySize.U ) * i.U)))
+      units(i).io.b := io.b((cycleCounter + ((vectorSize.U / arraySize.U ) * i.U)))
+     outputRegs((cycleCounter + ((vectorSize.U / arraySize.U ) * i.U))) := units(i).io.c
+//outputRegs(index) := units(i).io.c
+    }
+
+    cycleCounter := cycleCounter + 1.U
+
+    when(cycleCounter === (vectorSize / arraySize).U - 1.U) {
+        processing  :=  false.B
+    }
+  }
+
+  io.done := !processing
+  io.c := outputRegs
+}
+
+/*package arithmetic
+
+import chisel3._
+import scala.reflect.ClassTag
+import chisel3.util._
+import chisel3.experimental.hierarchy.{Definition, Instance, instantiable, public}
+
+abstract class ComputationalUnit(width: Int) extends Module {
+    val io = IO(new Bundle {
+        val a = Input(UInt(width.W))
+        val b = Input(UInt(width.W))
+        val c = Output(UInt(width.W))
     })
 }
 
@@ -72,3 +139,4 @@ class ParallelUnit(vectorSize: Int, arraySize: Int, unitWidth: Int, comp : (Int)
         }
     }
 }
+*/

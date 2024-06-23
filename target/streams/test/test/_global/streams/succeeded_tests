@@ -1,4 +1,5 @@
 #Successful Tests
-#Sat Jun 22 11:22:33 CEST 2024
-DividerTest=1719048113913
-RISCV.RV32I.SingleInstructionTests=1719048153292
+#Sun Jun 23 14:39:59 CEST 2024
+DividerTest=1719146361890
+ParallelUnitTest=1719146361474
+RISCV.RV32I.SingleInstructionTests=1719146399191

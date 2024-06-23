@@ -1,22 +1,10 @@
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(RISCV.RV32I.SingleInstructionTests, org.scalatest.tools.Framework$$anon$1@1518aed0, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(DividerTest, org.scalatest.tools.Framework$$anon$1@1518aed0, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(ParallelUnitTest, org.scalatest.tools.Framework$$anon$1@1518aed0, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(RISCV.ProcessorTest, org.scalatest.tools.Framework$$anon$1@1518aed0, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(RISCV.ProcessorTest, org.scalatest.tools.Framework$$anon$1@526e8572, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(RISCV.RV32I.SingleInstructionTests, org.scalatest.tools.Framework$$anon$1@526e8572, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(ParallelUnitTest, org.scalatest.tools.Framework$$anon$1@526e8572, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(DividerTest, org.scalatest.tools.Framework$$anon$1@526e8572, false, [SuiteSelector])[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mParallelUnitTest:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mParallel Unit[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m- should add two vectors *** FAILED ***[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  chiseltest.TimeoutException: timeout on ParallelUnit.clock: IO[Clock] at 1000 idle cycles You can extend the timeout by calling .setTimeout(<n>) on your clock (setting it to 0 means 'no timeout').[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.internal.AccessCheck.simulationStep(AccessCheck.scala:174)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.internal.SimController.$anonfun$scheduler$1(SimController.scala:59)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.internal.Scheduler.doStep(Scheduler.scala:377)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.internal.Scheduler.stepThread(Scheduler.scala:329)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.internal.SimController.step(SimController.scala:103)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.package$testableClock.step(package.scala:400)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at ParallelUnitTest.testParallelUnit(ParallelUnitTest.scala:37)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at ParallelUnitTest.$anonfun$new$6(ParallelUnitTest.scala:59)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:190)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at ParallelUnitTest.$anonfun$new$5(ParallelUnitTest.scala:54)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should add two vectors[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mDividerTest:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mDivider[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mDivider[0m[0m
@@ -73,15 +61,15 @@
 [0m[[0m[0minfo[0m] [0m[0m[32m- should do a random sb[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should do a random sh[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should do a random sw[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 42 seconds, 199 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 39 seconds, 919 milliseconds.[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 48[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 4, aborted 0[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 43, failed 5, canceled 0, ignored 0, pending 0[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m*** 5 TESTS FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 44, failed 4, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 4 TESTS FAILED ***[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	DividerTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ParallelUnitTest[0m
 [0m[[0m[0mdebug[0m] [0m[0m	RISCV.RV32I.SingleInstructionTests[0m
 [0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
 [0m[[0m[31merror[0m] [0m[0m	RISCV.ProcessorTest[0m
-[0m[[0m[31merror[0m] [0m[0m	ParallelUnitTest[0m
 [0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m

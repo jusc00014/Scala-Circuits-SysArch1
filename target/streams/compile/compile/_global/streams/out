@@ -1,7 +1,7 @@
-[0m[[0m[31merror[0m] [0m[0m/home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/ControlUnit.scala:51:19: object - is not a member of package RISCV[0m
-[0m[[0m[31merror[0m] [0m[0m        when(RISCV-TYPE.getFunct3())[0m
-[0m[[0m[31merror[0m] [0m[0m                  ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32I/ControlUnit.scala:51:20: not found: value TYPE[0m
-[0m[[0m[31merror[0m] [0m[0m        when(RISCV-TYPE.getFunct3())[0m
-[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32M/MultiplicationUnit.scala:10:38: not found: type AbstractControlUnit[0m
+[0m[[0m[31merror[0m] [0m[0mclass MultiplicationUnit (genCU : => AbstractControlUnit, genDecoder : => AbstractDecoder) extends AbstractExecutionUnit {[0m
+[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/julia/sysarch1/src/main/scala/RISC-V/implementation/RV32M/MultiplicationUnit.scala:10:75: not found: type AbstractDecoder[0m
+[0m[[0m[31merror[0m] [0m[0mclass MultiplicationUnit (genCU : => AbstractControlUnit, genDecoder : => AbstractDecoder) extends AbstractExecutionUnit {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                          ^[0m
 [0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
